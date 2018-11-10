@@ -1,5 +1,5 @@
 from flask import request, render_template, redirect, url_for, flash, g
-from flask.ext.login import current_user, login_required, login_user, logout_user
+from flask_login import current_user, login_required, login_user, logout_user
 from mhealth.app import DB
 from mhealth.dishes.models import Dish
 from mhealth.users.models import User

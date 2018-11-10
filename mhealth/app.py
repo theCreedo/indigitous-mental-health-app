@@ -2,8 +2,8 @@ import flask
 import json
 
 from flask import g, request, render_template
-from flask.ext.sqlalchemy import SQLAlchemy
-from flask.ext.login import LoginManager, current_user
+from flask_sqlalchemy import SQLAlchemy
+from flask_login import LoginManager, current_user
 # from flask.ext.cdn import CDN
 from flask_sslify import SSLify
 # from flask_redis import Redis

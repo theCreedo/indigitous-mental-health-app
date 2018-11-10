@@ -4,8 +4,8 @@ import dotenv
 # Load environment variable from a .env file
 dotenv.load_dotenv(os.path.join(os.path.dirname(__file__), ".env"))
 
-from flask.ext.script import Manager
-from flask.ext.migrate import Migrate, MigrateCommand
+from flask_script import Manager
+from flask_migrate import Migrate, MigrateCommand
 from mhealth.app import create_app
 from mhealth.app import DB
 from mhealth import app

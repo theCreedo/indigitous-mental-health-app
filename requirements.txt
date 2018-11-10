@@ -11,7 +11,7 @@ cssselect==1.0.1
 cssutils==1.0.2
 cycler==0.10.0
 docutils==0.14
-Flask==0.10.1
+Flask
 Flask-CDN==1.5.3
 Flask-Login==0.4.0
 Flask-Mail==0.9.1
@@ -23,14 +23,14 @@ Flask-SSLify==0.1.5
 Flask-User==0.6.19
 Flask-WTF==0.14.2
 futures==3.1.1
-gunicorn==19.3.0
+gunicorn
 hashids==1.2.0
 hellosign-python-sdk==3.8.5
 idna==2.6
 itsdangerous==0.24
-Jinja2==2.8
+Jinja2
 jmespath==0.9.3
-keen==0.4.0
+keen
 lxml==4.0.0
 Mako==1.0.7
 MarkupSafe==1.0
@@ -40,7 +40,7 @@ passlib==1.7.1
 premailer==3.1.1
 psycopg2==2.7.3.1
 pycparser==2.18
-pycryptodome==3.4.7
+pycryptodome
 pyparsing==2.2.0
 python-dateutil==2.6.1
 python-dotenv==0.7.1
@@ -48,7 +48,7 @@ python-editor==1.0.3
 python-http-client==3.0.0
 pytz==2017.2
 redis==2.10.6
-requests==2.18.4
+requests
 s3transfer==0.1.11
 scikit-learn==0.19.0
 scipy==0.19.1
@@ -58,5 +58,5 @@ sklearn==0.0
 SQLAlchemy==1.0.8
 structlog==17.2.0
 urllib3==1.22
-Werkzeug==0.10.4
+Werkzeug
 WTForms==2.1
